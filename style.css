@@ -1,12 +1,51 @@
 .welcome {
-    color: black;
+    color: blue;
 }
 
 .card-img-top{
     width:100%;
     height:auto;
 }
+.linkedin {
+    height: 2em;
+    width: 2em;
 
-.form{
-    width: 50%;
+}
+
+
+.glitch{
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    text-shadow: 0.05em 0 0 rgba(255,0, 0,.75),
+                 -0.025em -0.05em 0 rgba(0, 255, 0,.75),
+                 0.025em 0.05em 0 rgba(0, 0, 255,.75);
+
+    animation: glitch 2000ms infinite;
+
+ }
+
+@keyframes glitch {
+    0% {
+        text-shadow: 0.05em 0 0 rgba(255,0, 0,.75),
+        -0.05em -0.025em 0 rgba(0, 255, 0,.75),
+        -0.025em 0.05em 0 rgba(0, 0, 255,.75);
+    }
+    15% {
+        text-shadow: -0.05em 0 0 rgba(255,0, 0,.75),
+        0.025em -0.025em 0 rgba(0, 255, 0,.75),
+        -0.05em -0.05em 0 rgba(0, 0, 255,.75);
+    }
+    50% {
+        text-shadow: 0.025em 0 0 rgba(255,0, 0,.75),
+        0.05em 0 0 rgba(0, 255, 0,.75),
+        0 -0.05em 0 rgba(0, 0, 255,.75);
+    }
+    100% {
+        text-shadow: -0.025em 0 0 rgba(255,0, 0,.75),
+        -0.025em -0.025em 0 rgba(0, 255, 0,.75),
+        -0.025em -0.05em 0 rgba(0, 0, 255,.75);
+    }
+
 }
