@@ -13,7 +13,7 @@
 }
 
 
-.glitch{
+.glitch {
     font-size:10vw;
     font-weight: 700;
     text-transform: uppercase;
@@ -49,10 +49,22 @@
     }
 
 }
-adskfjak
 
 
+.Git {
+    width: 50%;
+    height: auto;
+}
 
+.docker {
+    width: 25%;
+    height: auto;
+}
 
-
-dsljfhjl
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
