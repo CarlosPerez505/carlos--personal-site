@@ -78,36 +78,129 @@
 
 
 
-                      .st0a{fill-rule:evenodd;clip-rule:evenodd;fill:#191717;}
-.st1a{fill:#191717;}
+.st0a {
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    fill:#191717;
+}
 
 
-                      .st0{fill:#413000;}
-.st1{fill:#F05133;}
+.st1a {
+    fill:#191717;
+}
 
 
-                      .st0b{fill:#679E63;}
-.st1b{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-.st2b{fill-rule:evenodd;clip-rule:evenodd;fill:#679E63;}
-.st3b{clip-path:url(#XMLID_00000092420711355112990850000004651626123655462293_);}
-.st4b{fill:none;}
-.st5b{fill:url(#SVGID_1_);}
-.st6b{fill:url(#SVGID_00000092416707218481687640000015302704412589466250_);}
-.st7b{fill:url(#SVGID_00000054944196849364988840000007307988455423109557_);}
-.st8b{fill:url(#SVGID_00000026848326367276069910000014804657593886582946_);}
-.st9b{fill:url(#SVGID_00000065769529312757969730000013572381888694139057_);}
-.st10b{fill:url(#SVGID_00000172431748761324216780000005048762642047175070_);}
+.st0 {
+    fill:#413000;
+}
+
+.st1 {
+    fill:#F05133;
+}
 
 
-                      .st0c{fill:#00678F;}
-.st1c{fill:#E48D1A;}
-.st2c{fill-rule:evenodd;clip-rule:evenodd;fill:#00678F;}
-.st3c{fill-rule:evenodd;clip-rule:evenodd;fill:#E48D1A;}
-.st4c{fill:#999B9E;}
-.st5c{font-family:'HelveticaNeue-MediumExt';}
-.st6c{font-size:29.384px;}
+.st0b {
+    fill:#679E63;
+}
 
 
-                          /*{fill:#FDFEFE;}*/
-                      .st1d{fill:#2496EC;}
-.st2d{fill:#2696EC;}
+.st1b {
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    fill:#FFFFFF;
+}
+
+
+.st2b {
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    fill:#679E63;
+}
+
+
+.st3b {
+    clip-path:url(#XMLID_00000092420711355112990850000004651626123655462293_);
+}
+
+
+.st4b {
+    fill:none;
+}
+
+
+.st5b {
+    fill:url(#SVGID_1_);
+}
+
+.st6b {
+    fill:url(#SVGID_00000092416707218481687640000015302704412589466250_);
+}
+
+
+.st7b {
+    fill:url(#SVGID_00000054944196849364988840000007307988455423109557_);
+}
+
+
+.st8b {
+    fill:url(#SVGID_00000026848326367276069910000014804657593886582946_);
+}
+
+
+.st9b {
+    fill:url(#SVGID_00000065769529312757969730000013572381888694139057_);
+}
+
+
+.st10b {
+    fill:url(#SVGID_00000172431748761324216780000005048762642047175070_);
+}
+
+.st0c {
+    fill:#00678F;
+}
+
+
+.st1c {
+    fill:#E48D1A;
+}
+
+
+.st2c {
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    fill:#00678F;
+}
+
+
+.st3c {
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    fill:#E48D1A;
+}
+
+
+.st4c {
+    fill:#999B9E;
+}
+
+
+.st5c {
+    font-family:'HelveticaNeue-MediumExt';
+}
+
+
+.st6c {
+    font-size:29.384px;
+}
+
+.st1d {
+    fill:#2496EC;
+}
+
+
+.st2d {
+    fill:#2696EC;
+}
+
+
