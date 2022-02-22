@@ -39,9 +39,11 @@
                  0.025em 0.05em 0 rgba(0, 0, 255,.75);
 
     animation: glitch 2000ms infinite;
-
-
  }
+
+.hi {
+    font-size: 3vw;
+}
 
 #flashingWelcome {
     padding-top: 1rem;
