@@ -29,11 +29,11 @@
         </div>
     </nav>
 <section class="welcome bg-dark text-centered" id="welcome">
-   <!-- <img src="images/web-dev.jpg" alt="computer keyboard" class="img-fluid">-->
+
 
     <div class="centered" id="flashingWelcome">
-        <h1 class="glitch text-center">welcome</h1>
-        <p class="hi m-2 text-red text-center">Hi, my name is Carlos Perez<br> and I am a web developer for hire!</p>
+        <h1 class="glitch text-center">Carlos Perez</h1>
+        <p class="hi m-2 text-center">web developer</p>
 
     </div>
 
@@ -101,13 +101,15 @@
 
             </div>
             <div class="col-md">
+                <div class="about-text">
                 <h2>About</h2>
                 <p class="m-5">
-                    I have technical skills in frontend and backend web development. I am good at breaking problems down
-                    into smaller more manageable problems. I'm eager to learn new technologies as that eagerness drove me
-                    to begin teaching myself web development. A few months after teaching myself the basics of html css
-                    and javascript I attended a full-stack development boot camp. This is the end result so far.
+                    I have technical skills in frontend and backend web development. I began by teaching myself the basics
+                    of HTML CSS and Javascript. A few months after teaching myself the basics I attended a full-stack
+                    development bootcamp which taught me backend development. This site and the RedPalm web app below
+                    was developed using this tech stack you see here.
                 </p>
+                </div>
                 <svg version="1.1" id="GitHub" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                      width="150" height="150" viewBox="190 210 175 175" style="enable-background:new 0 0 531 552;" xml:space="preserve">
 
@@ -471,7 +473,7 @@
 
 
 
-<section id="portfolio">
+<section class="portfolio" id="portfolio">
     <div class="container-fluid bg-dark p-5">
         <h1 class="text-center"> Portfolio</h1>
         <div class="row g-3">
@@ -502,11 +504,11 @@
                     <h1 class="text-center">contact</h1>
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
-                        <input class="form-control" id="name" aria-describedby="nameHelp" name="name">
+                        <input class="form-control" id="name" aria-describedby="name" name="name">
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="email" name="email" aria-describedby="email">
                     </div>
                     <div class="form-floating">
                         <!-- TODO put style in css file seperate from html file-->
@@ -531,11 +533,12 @@
         <footer class="bg-dark text-center text-white">
             <!-- Grid container -->
             <div class="container bg-dark p-4 pb-0">
+
                 <!-- Section: Social media -->
-                <section>
+                <section id="social">
 
 
-                      <!-- Linkedin -->
+                    <!-- Linkedin -->
 
                     <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/carlosperez505webdev/" role="button">
                         <img class="linkedin" src="images/linkdin-icon-logo.png" alt="linkedin logo"/>
@@ -549,6 +552,7 @@
                         <i class="fab fa-github"></i
                         ></a>
                 </section>
+            </div>
         </footer>
     </section>
         <!-- Section: Social media -->

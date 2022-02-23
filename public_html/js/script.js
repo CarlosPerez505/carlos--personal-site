@@ -52,3 +52,16 @@ $(document).ready(function(){
         }
     })
 })
+
+
+function scrollAppear () {
+    let aboutText = document.querySelector('.about-text');
+    let aboutPosition = aboutText.getBoundingClientRect().top;
+    let screenPosition = window.innerHeight/1.2;
+
+    if (aboutPosition<screenPosition) {
+        aboutText.classList.add('about-appear')
+    }
+}
+
+window.addEventListener('scroll',scrollAppear);

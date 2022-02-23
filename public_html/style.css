@@ -9,15 +9,6 @@
 }
 
 
-
-#js path:nth-child(1) {
-    stroke-dasharray: 150px;
-}
-
-/*.centered {*/
-/*    position: fixed;*/
-/*}*/
-
 .card-img-top{
     width:100%;
     height:auto;
@@ -244,4 +235,14 @@
     fill:#2696EC;
 }
 
+.about-text {
+    width:100%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 2s all ease-in-out;
+}
 
+.about-appear {
+    opacity: 1;
+    transform: translateY(0px);
+}
