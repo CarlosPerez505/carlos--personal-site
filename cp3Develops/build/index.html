@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Home | Portfolio template</title>
+    <meta name="description" content="Page-specific description">
+    <meta name="keywords" content="Page-specific keywords">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="static/images/favicons/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&amp;subset=latin,cyrillic"
+            rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="static/css/screen.min.css">
+    <script src="static/js/head.min.js"></script>
+</head>
+<body>
+<script>progressJs().setOptions({overlayMode: true, theme: 'custom'}).start();
+if (window.attachEvent) {
+    window.attachEvent('onload', function () {
+        progressJs().end();
+    });
+} else {
+    if (window.onload) {
+        var curronload = window.onload;
+        var newonload = function () {
+            curronload();
+            progressJs().end();
+        };
+        window.onload = newonload;
+    } else {
+        window.onload = function () {
+            progressJs().end();
+        };
+    }
+}</script><!-- Header-->
+<header class="main-header">
+    <div class="first-nav">
+        <div class="container">
+            <nav class="first-nav__links">
+            </nav>
+            <a class="first-nav__navcontrol icon icon_menu js-navcontrol" href="#">Menu</a></div>
+    </div>
+    <div class="second-nav js-nav">
+        <div class="container"><a class="second-nav__logo"><span>CP3</span></a>
+            <nav class="menu">
+                <ul>
+                    <li><a class="js-link js-anchor is-selected" href="#home">Home</a></li>
+                    <li><a class="js-link js-anchor" href="#about">About</a></li>
+                    <li><a class="js-link js-anchor" href="#services">Services</a></li>
+                    <li><a class="js-link js-anchor" href="#process">Process</a></li>
+                    <li><a class="js-link js-anchor" href="#projects">Projects</a></li>
+                    <li><a class="js-link js-anchor" href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header><!-- Home section-->
+<section class="home-section" id="home">
+    <div class="home-section__bg"></div>
+    <div class="home-section__overlay">
+        <div class="container">
+            <header class="home-section__header"><h1>Carlos Perez</h1>
+                <h2>Communications manager/ Web developer.</h2></header>
+        </div>
+    </div>
+</section><!-- About section-->
+<section class="about-section" id="about">
+    <div class="container">
+        <div class="about-card">
+            <header class="about-card__header"><h2>About</h2></header>
+            <div class="about-card__info"><p>AWS certificated Software Engineer with a great interest in working with
+                the latest web and Mobile App technologies, and Full-stack web developer with a passion for building
+                web/apps that helps people with burning problems. Over 8 years of experience with React, NextJS, Node,
+                Laravel, PHP, Angular, React Native, and more. I love developing applications with beautiful UI/UX with
+                NextJS and React. Currently, I am working on applications built on React with state management using
+                Redux and MobX, but eventually, I love to be working with GraphQL or Solidity.
+                React Query.</p></br>
+                <p>I believe that technology is the most effective when it empowers people to solve their true issues
+                    and problems. I am inspired by tech entrepreneurs who make it their life's mission to make other
+                    people's lives better through technology. This could be a big idea like going to Mars, or it could
+                    be a "minor" one like making the UX on a site more intuitive.</p></br>
+                <p>I have a strong focus on crafting accessible, user-friendly, and multi-functionally webs/apps that
+                    provide a tangible solution for the user.</p></br>
+                <p>In the past few years, I have concentrated on maximizing my learning, and have the following skills :
+                </p></br>
+                <p>* Frontend: React, JavaScript, NextJS, Angular, HTML, CSS</p>
+                <p>* Backend: Node (Express, Koa), Golang, Ruby, PHP, Laravel<p/>
+                <p>* Mobile: React Native, Flutter, IOS, Android, Swift</p>
+                <p>* Databases: MySQL, SQL, MongoDB, PostgreSQL</p>
+                <p>* CMS: WordPress, Shopify</p>
+                <P>* AWS certification</p>
+                <p>* CI/CD Test</p>
+                </br>
+                <p>I enjoy building strong relationships and work well with people at all levels of the organization
+                    including
+                    management, staff, and customers.</p>
+                <blockquote><p>The year is 2022 and this is a new and affordable web unlike the 2000s which had
+                    a dot com bust and Y2K.</p></blockquote>
+                <p class="about-card__info-status"><span>Current status:</span> Available for hire</p></div>
+        </div>
+    </div>
+</section><!-- Services section-->
+<section class="common-section" id="services">
+    <div class="container">
+        <header class="common-section__header"><h2>Services</h2><h4>FullStack Engineer</h4>
+        </header>
+        <div class="grid-container">
+            <ul class="services services_advisory">
+                <li class="services__item icon icon_research"><h4>Prototyping, creating, and building websites along
+                    with user interface teams</h4>
+                    </li>
+                <li class="services__item icon icon_strategy"><h4> Working with a website from start to final launch</h4>
+                   </li>
+                <li class="services__item icon icon_improve"><h4>Prototyping, creating, and building websites along with
+                    user interface teams</h4>
+                  </li>
+            </ul>
+            <ul class="services services_pm">
+                <li class="services__item icon icon_plan"><h4>Managing database and server administration duties</h4>
+                </li>
+                <li class="services__item icon icon_recover"><h4>Designing user interactions through robust front end architecture</h4>
+                  </li>
+                <li class="services__item icon icon_support"><h4>Communicating with end-users to determine product effectiveness</h4>
+                  </li>
+            </ul>
+            <div class="advantages"><h2>Why choose me?</h2>
+                <blockquote><p>Well, If your from a small town like me you understand the value of a dollar. We don't
+                    try and
+                    nickle and dime you for everything like the other guys but we strive do do the best with what you
+                    are dreaming
+                    of.
+                </p><cite>CP3DEVELOPS</cite></blockquote>
+            </div>
+        </div>
+    </div>
+</section><!-- Process section-->
+<section class="common-section" id="process">
+    <div class="container">
+        <header class="common-section__header"><h2>How it works</h2></header>
+        <div class="grid-container">
+            <ul class="process">
+                <li class="process__step process__step_research">
+                    <div class="process__step-icon icon icon_research is-active"></div>
+                </li>
+                <li class="process__step-info process__step-info_research is-active"><h3><span>Step 1</span> &mdash; A
+                    clear vision
+                </h3>
+                    <p>Look at some websites you might like on the web and think how you would make it yours. Don't
+                        worry we can
+                        help you if your not exactly sure.</p>
+                </li>
+                <li class="process__step process__step_develop">
+                    <div class="process__step-icon icon icon_develop"></div>
+                </li>
+                <li class="process__step-info process__step-info_develop"><h3><span>Step 2</span> &mdash; what services
+                    and or
+                    products will your website be offering?
+                </h3>
+                    <p>How do you expect to generate revenue from our products and services? We can suggest viable web
+                        solutions
+                    </p></li>
+                <li class="process__step process__step_deploy">
+                    <div class="process__step-icon icon icon_deploy"></div>
+                </li>
+                <li class="process__step-info process__step-info_deploy"><h3><span>Step 3</span> &mdash; Get the word
+                    out</h3>
+                    <p>Tell everyone you know to visit the website/mobile app and cosider advertising on the radio tv,
+                        and signs.
+                    </p></li>
+                <li class="process__step process__step_deliver">
+                    <div class="process__step-icon icon icon_deliver"></div>
+                </li>
+                <li class="process__step-info process__step-info_deliver"><h3><span>Step 4</span> &mdash; To the moon
+                </h3>
+                    <p>Get ready for success because were going to the moon.</p></li>
+            </ul>
+        </div>
+    </div>
+</section><!-- Projects section-->
+<section class="common-section" id="projects">
+    <header class="common-section__header"><h2>Projects</h2>
+        <p>These are some fullstack Applications built with different technologies that I was proud to be a part of</p>
+    </header>
+    <div class="projects-wrap">
+        <div class="grid-container">
+            <div class="projects">
+                <figure class="projects__item"><img src="static/images/beautyPieLogo.svg"
+                                                    alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
+                    <figcaption><a class="icon icon_link" href="https://beautypie.com/" rel="nofollow">BeautyPie.com</a>
+                    </figcaption>
+                </figure>
+                <figure class="projects__item"><img src="static/images/projects/2.png"
+                                                    alt="Donec lobortis,git  est iaculis rutrum feugiat">
+                    <figcaption><a class="icon icon_link" href="https://tandfonline.com"
+                                   rel="nofollow">tandfonline.com</a>
+                    </figcaption>
+                </figure>
+                <figure class="projects__item"><img src="static/images/projects/3.png"
+                                                    alt="Duis feugiat, metus eu ullamcorper accumsan, massa risus dictum nisi">
+                    <figcaption><a class="icon icon_link" href="https://www.sandstruck.com" rel="nofollow">sandstruck.com</a>
+                    </figcaption>
+                </figure>
+                <figure class="projects__item"><img src="static/images/projects/4.png"
+                                                    alt="Donec non ligula imperdiet, tincidunt quam ut, pellentesque nisi">
+                    <figcaption><a class="icon icon_link" href="https://www.bizupon.com" rel="nofollow">bizupon.com</a>
+                    </figcaption>
+                </figure>
+                <figure class="projects__item"><img src="static/images/projects/5.svg"
+                                                    alt="Mauris a sem semper, maximus metus vitae, efficitur turpis">
+                    <figcaption><a class="icon icon_link" href="https://beautypie.com/" rel="nofollow">RedPalm.com</a>
+                    </figcaption>
+                </figure>
+                <figure class="projects__item"><img src="static/images/projects/3.jpg"
+                                                    alt="Mauris a sem semper, maximus metus vitae, efficitur turpis">
+                    <figcaption><a class="icon icon_link" href="https://beautypie.com/" rel="nofollow">Your App</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+  </div>
+</section><!-- Contacts section-->
+<div class="contacts-section" id="contacts">
+  <div class="container">
+    <section class="contact-card">
+      <header class="contact-card__header"><h2>Contact information</h2><h4></h4></header>
+      <div class="contact-info">
+        <div class="contact-info__logo">CP3</div>
+        <div class="contact-info__group">
+          <div class="contact-info__additional"><p>Whats your passion, is it your business or is it something
+              deeper like your</br>favorite football team. What ever  it may be we can help you incorporate your
+              </br>vision, your own little piece of real estate on the web.</p></br>
+          <div class="contact-info__vcard vcard"><h4 class="fn org">Carlos Perez</h4>
+            <p class="role title">Communications Manager/Web Developer</p>
+            <p class="icon icon_location"><a class="adr js-anchor" href="#gmap"><span
+              class="country-name">U.S.A.</span>,&nbsp;<span class="locality"></span>New Mexico</a></p>
+            <p class="icon icon_mail"><a class="email" href="">CarlosPerez505@gmail.com</a></p>
+              <a class="icon icon_in__links" href="https://www.linkedin.com/in/carlosperez505webdev/"> Linkedin</a>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="gmap" id="gmap"></div>
+</div><!-- Footer-->
+<footer class="main-footer">
+  <div class="container"><p class="main-footer__copyright">&copy;&nbsp;<span>Cp3Develops</span></p><a
+    class="main-footer__gotop icon icon_gotop js-anchor" href="#home">To top!</a>
+    <p class="main-footer__links">Designed by&nbsp;<a href="https://www.linkedin.com/in/carlosperez505webdev/">Carlos Perez</a></p></div>
+</footer>
+<script src="static/js/body.min.js"></script>
+</body>
+</html>
