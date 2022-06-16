@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="945208ed-b268-490f-8f7c-a3304c89137a" name="Changes" comment="" />
+    <list default="true" id="945208ed-b268-490f-8f7c-a3304c89137a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp3Develops/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cp3Develops/build/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,14 +55,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cp3Develops" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cp3Develops/build/static" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,11 +75,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\15053\Desktop\bootcamp\Git\carlos-personal-site\cp3Develops\build\static" />
       <recent name="C:\Users\15053\Desktop\bootcamp\Git\carlos-personal-site" />
       <recent name="C:\Users\15053\Desktop\bootcamp\Git\carlos-personal-site\public_html\css" />
       <recent name="C:\Users\15053\Desktop\bootcamp\Git\carlos-personal-site\public_html\images" />
       <recent name="C:\Users\15053\Desktop\bootcamp\Git\carlos-personal-site\public_html\documentation" />
-      <recent name="C:\Users\15053\Desktop\bootcamp\Git\carlos-personal-site\public_html\documentation\milestone2.html" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\15053\Desktop\bootcamp\Git\carlos-personal-site\public_html\css" />
@@ -209,7 +211,7 @@
       <workItem from="1655357813863" duration="2227000" />
       <workItem from="1655360075829" duration="1721000" />
       <workItem from="1655362329493" duration="3453000" />
-      <workItem from="1655383143852" duration="641000" />
+      <workItem from="1655383143852" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="Added paragraphs about my audience, purpose and goals.">
       <created>1642542501549</created>
