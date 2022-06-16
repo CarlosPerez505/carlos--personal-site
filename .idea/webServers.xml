@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9bfeb596-1ef6-482a-8219-cf835dbdaee0" name="cp3Develops" url="http://cp3Develops.com">
+        <fileTransfer rootFolder="/home/cperez123/cp3Develops" accessType="SFTP" host="cp3develops.com" port="22" sshConfigId="2e8067db-e793-4077-8a7c-590b9f165867" sshConfig="cperez123@cp3develops.com:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
